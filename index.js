@@ -29,7 +29,7 @@ module.exports = {
         "no-extra-semi": "off",//not needed
         "no-func-assign": "error",
         "no-import-assign": "error",
-        
+        "no-inner-declarations": "error",
 
 
 
