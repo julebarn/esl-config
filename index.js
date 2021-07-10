@@ -48,6 +48,7 @@ module.exports = {
         "no-unexpected-multiline": "error",
         "no-unreachable": "error",
         "no-unreachable-loop": "error",
+        "no-unsafe-finally": "error",
 
     }
 };
