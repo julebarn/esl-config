@@ -28,7 +28,9 @@ module.exports = {
         "no-extra-parens": ["error", "functions"], // reevaluate soon
         "no-extra-semi": "off",//not needed
         "no-func-assign": "error",
+        "no-import-assign": "error",
         
+
 
 
 
