@@ -36,6 +36,7 @@ module.exports = {
             "skipRegExps": true,
             "skipTemplates": true,
         }],
+        "no-loss-of-precision": "error",
 
 
 
