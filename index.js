@@ -27,6 +27,8 @@ module.exports = {
         "no-extra-boolean-cast": "error",
         "no-extra-parens": ["error", "functions"], // reevaluate soon
         "no-extra-semi": "off",//not needed
+        "no-func-assign": "error",
+        
 
 
 
