@@ -44,5 +44,6 @@ module.exports = {
         "no-regex-spaces": "error",
         "no-setter-return": "error",
         "no-sparse-arrays": "error",
+        "no-template-curly-in-string": "error",
     }
 };
