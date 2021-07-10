@@ -53,6 +53,9 @@ module.exports = {
         "no-unsafe-optional-chaining": "error",
         "no-useless-backreference": "off",//?
         "require-atomic-updates": "error",
-        "use-isnan": "error",
+        "use-isnan": ["error", {
+            "enforceForSwitchCase": true,
+            "enforceForIndexOf": true
+        }],
     }
 };
