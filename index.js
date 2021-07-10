@@ -17,5 +17,6 @@ module.exports = {
         "no-constant-condition": ["error", { "checkLoops": false }],
         "no-control-regex": "error",
         "no-debugger": "error",
+        "no-dupe-else-if": "error",
     }
 };
