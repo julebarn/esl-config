@@ -52,5 +52,6 @@ module.exports = {
         "no-unsafe-negation": "error",
         "no-unsafe-optional-chaining": "error",
         "no-useless-backreference": "off",//?
+        "require-atomic-updates": "error",
     }
 };
