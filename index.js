@@ -51,5 +51,6 @@ module.exports = {
         "no-unsafe-finally": "error",
         "no-unsafe-negation": "error",
         "no-unsafe-optional-chaining": "error",
+        "no-useless-backreference": "off",//?
     }
 };
