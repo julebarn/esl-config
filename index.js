@@ -57,5 +57,6 @@ module.exports = {
             "enforceForSwitchCase": true,
             "enforceForIndexOf": true
         }],
+        "valid-typeof": "error",
     }
 };
