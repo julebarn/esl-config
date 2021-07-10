@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/julebarn/esl-config/issues"
   },
-  "homepage": "https://github.com/julebarn/esl-config#readme"
+  "homepage": "https://github.com/julebarn/esl-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
 }
