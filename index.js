@@ -43,6 +43,6 @@ module.exports = {
         "no-prototype-builtins": "error",
         "no-regex-spaces": "error",
         "no-setter-return": "error",
-
+        "no-sparse-arrays": "error",
     }
 };
