@@ -12,5 +12,6 @@ module.exports = {
         "getter-return": "error",
         "no-async-promise-executor": "error",
         "no-await-in-loop": "warn",
+        "no-compare-neg-zero": "error",
     }
 };
