@@ -24,6 +24,8 @@ module.exports = {
         "no-empty": "off", // reevaluate soon
         "no-empty-character-class": "error",
         "no-ex-assign": "error",
+        "no-extra-boolean-cast": "error",
+        
 
     }
 };
