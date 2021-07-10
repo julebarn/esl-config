@@ -21,7 +21,8 @@ module.exports = {
         "no-dupe-else-if": "error",
         "no-dupe-keys": "error",
         "no-duplicate-case": "error",
-        "no-empty": "off", // reevaluate soon 
+        "no-empty": "off", // reevaluate soon
+        "no-empty-character-class": "error",
 
 
     }
