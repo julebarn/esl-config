@@ -31,7 +31,11 @@ module.exports = {
         "no-import-assign": "error",
         "no-inner-declarations": "error",
         "no-invalid-regexp": "error",
-
+        "no-irregular-whitespace": ["error", {
+            "skipStrings": true,
+            "skipRegExps": true,
+            "skipTemplates": true,
+        }],
 
 
 
