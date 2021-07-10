@@ -38,7 +38,7 @@ module.exports = {
         }],
         "no-loss-of-precision": "error",
         "no-misleading-character-class": "error",
-
+        "no-obj-calls": "error",
 
 
     }
