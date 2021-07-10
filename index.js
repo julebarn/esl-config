@@ -8,6 +8,8 @@ module.exports = {
     },
     rules: {
         // Possible Errors
-        "for-direction": "error"
+        "for-direction": "error",
+        "getter-return": "error",
+
     }
 };
