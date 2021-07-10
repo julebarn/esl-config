@@ -23,7 +23,7 @@ module.exports = {
         "no-duplicate-case": "error",
         "no-empty": "off", // reevaluate soon
         "no-empty-character-class": "error",
-
+        "no-ex-assign": "error",
 
     }
 };
