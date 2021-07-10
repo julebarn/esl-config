@@ -6,4 +6,8 @@ module.exports = {
         ecmaVersion: "2021",
         sourceType: "module"
     },
+    rules: {
+        // Possible Errors
+        "for-direction": "error"
+    }
 };
