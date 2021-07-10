@@ -42,6 +42,7 @@ module.exports = {
         "no-promise-executor-return": "error",
         "no-prototype-builtins": "error",
         "no-regex-spaces": "error",
+        "no-setter-return": "error",
 
     }
 };
