@@ -37,6 +37,7 @@ module.exports = {
             "skipTemplates": true,
         }],
         "no-loss-of-precision": "error",
+        "no-misleading-character-class": "error",
 
 
 
