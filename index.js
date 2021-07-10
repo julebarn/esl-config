@@ -15,6 +15,6 @@ module.exports = {
         "no-compare-neg-zero": "error",
         "no-cond-assign": "error",
         "no-constant-condition": ["error", { "checkLoops": false }],
-
+        "no-control-regex": "error",
     }
 };
