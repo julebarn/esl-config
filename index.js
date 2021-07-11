@@ -98,5 +98,7 @@ module.exports = {
         "no-fallthrough": ["error", {
             //"commentPattern": "" // reevaluate soon
         }],
+        "no-floating-decimal": "off",// reevaluate soon
+        "no-global-assign": "error",
     }
 };
