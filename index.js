@@ -74,5 +74,6 @@ module.exports = {
         "default-case": "error",
         "default-case-last": "error",
         "efault-param-last": "error",
+        "dot-location": ["error", "property"],
     }
 };
