@@ -94,5 +94,6 @@ module.exports = {
         "no-eval": "error",
         "no-extend-native": "error",
         "no-extra-bind": "error",
+        "no-extra-label": "error",
     }
 };
