@@ -78,5 +78,6 @@ module.exports = {
         "dot-notation": "error",
         "eqeqeq": ["error", "smart"],
         "grouped-accessor-pairs": ["error", "getBeforeSet"],
+        "guard-for-in": "off",
     }
 };
