@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        es2021:true
+        es2021: true
     },
     parserOptions: {
         ecmaVersion: "2021",
@@ -95,5 +95,8 @@ module.exports = {
         "no-extend-native": "error",
         "no-extra-bind": "error",
         "no-extra-label": "error",
+        "no-fallthrough": ["error", {
+            //"commentPattern": "" // reevaluate soon
+        }],
     }
 };
