@@ -84,5 +84,6 @@ module.exports = {
         "no-caller": "error",
         "no-case-declarations": "error",
         "no-constructor-return": "error",
+        "no-div-regex": "error",
     }
 };
