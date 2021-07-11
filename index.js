@@ -70,5 +70,6 @@ module.exports = {
             "max": 20 // reevaluate soon
         }],
         "consistent-return": "error",
+        "curly": ["error", "multi-or-nest", "consistent"], // reevaluate soon
     }
 };
