@@ -89,6 +89,7 @@ module.exports = {
         "no-empty-function": ["error", { // reevaluate soon
             "allow": ["arrowFunctions"]
         }],
-        "no-empty-pattern": "error"
+        "no-empty-pattern": "error",
+        "no-eq-null": "error",// reevaluate soon
     }
 };
