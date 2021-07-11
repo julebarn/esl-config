@@ -92,5 +92,6 @@ module.exports = {
         "no-empty-pattern": "error",
         "no-eq-null": "error",// reevaluate soon
         "no-eval": "error",
+        "no-extend-native": "error",
     }
 };
