@@ -77,5 +77,6 @@ module.exports = {
         "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eqeqeq": ["error", "smart"],
+        "grouped-accessor-pairs": ["error", "getBeforeSet"],
     }
 };
