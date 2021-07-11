@@ -64,5 +64,6 @@ module.exports = {
         "array-callback-return": ["error", {
             checkForEach: true
         }],
+        "block-scoped-var": "off", // reevaluate soon
     }
 };
