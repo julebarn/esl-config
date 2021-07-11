@@ -82,5 +82,6 @@ module.exports = {
         "max-classes-per-file": ["error", 1],
         "no-alert": "warn",
         "no-caller": "error",
+        "no-case-declarations": "error",
     }
 };
