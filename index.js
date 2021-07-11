@@ -76,5 +76,6 @@ module.exports = {
         "efault-param-last": "error",
         "dot-location": ["error", "property"],
         "dot-notation": "error",
+        "eqeqeq": ["error", "smart"],
     }
 };
