@@ -85,5 +85,6 @@ module.exports = {
         "no-case-declarations": "error",
         "no-constructor-return": "error",
         "no-div-regex": "error",
+        "no-else-return": "error",
     }
 };
