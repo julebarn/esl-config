@@ -86,5 +86,8 @@ module.exports = {
         "no-constructor-return": "error",
         "no-div-regex": "error",
         "no-else-return": "error",
+        "no-empty-function": ["error", { // reevaluate soon
+            "allow": ["arrowFunctions"]
+        }],
     }
 };
