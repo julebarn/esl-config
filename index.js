@@ -83,5 +83,6 @@ module.exports = {
         "no-alert": "warn",
         "no-caller": "error",
         "no-case-declarations": "error",
+        "no-constructor-return": "error",
     }
 };
