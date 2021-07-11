@@ -61,5 +61,8 @@ module.exports = {
 
         //Best Practices
         "accessor-pairs": "error",
+        "array-callback-return": ["error", {
+            checkForEach: true
+        }],
     }
 };
