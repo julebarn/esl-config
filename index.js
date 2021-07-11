@@ -58,5 +58,8 @@ module.exports = {
             "enforceForIndexOf": true
         }],
         "valid-typeof": "error",
+
+        //Best Practices
+        "accessor-pairs": "error",
     }
 };
