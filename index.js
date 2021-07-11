@@ -79,6 +79,7 @@ module.exports = {
         "eqeqeq": ["error", "smart"],
         "grouped-accessor-pairs": ["error", "getBeforeSet"],
         "guard-for-in": "off",
-        "max-classes-per-file": ["error", 1]
+        "max-classes-per-file": ["error", 1],
+        "no-alert": "warn",
     }
 };
