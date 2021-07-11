@@ -81,5 +81,6 @@ module.exports = {
         "guard-for-in": "off",
         "max-classes-per-file": ["error", 1],
         "no-alert": "warn",
+        "no-caller": "error",
     }
 };
