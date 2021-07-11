@@ -69,6 +69,6 @@ module.exports = {
         "complexity": ["error", {
             "max": 20 // reevaluate soon
         }],
-        
+        "consistent-return": "error",
     }
 };
