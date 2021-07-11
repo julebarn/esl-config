@@ -65,5 +65,7 @@ module.exports = {
             checkForEach: true
         }],
         "block-scoped-var": "off", // reevaluate soon
+        "class-methods-use-this": "error",
+        
     }
 };
