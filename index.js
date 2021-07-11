@@ -66,6 +66,9 @@ module.exports = {
         }],
         "block-scoped-var": "off", // reevaluate soon
         "class-methods-use-this": "error",
+        "complexity": ["error", {
+            "max": 20 // reevaluate soon
+        }],
         
     }
 };
