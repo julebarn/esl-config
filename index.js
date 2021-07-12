@@ -198,7 +198,7 @@ module.exports = {
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"],
         "id-denylist": "off",// reevaluate soon
-        "id-length": ["error", {
+        "id-length": ["off", {// reevaluate soon
             "min": 2,
             "max": 50,
             "properties": "never"
