@@ -146,5 +146,6 @@ module.exports = {
         "no-warning-comments": "off",
         "no-with": "error",
         "prefer-named-capture-group": "error",
+        "prefer-promise-reject-errors": "off",
     }
 };
