@@ -213,5 +213,6 @@ module.exports = {
             "before": true
             "after": true
         }],
+        "line-comment-position": "off",
     }
 };
