@@ -268,5 +268,7 @@ module.exports = {
         "no-continue": "off",
         "no-inline-comments": "off",
         "no-lonely-if": "error",
+        "no-mixed-operators": "error",
+        
     }
 };
