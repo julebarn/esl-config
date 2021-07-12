@@ -105,5 +105,6 @@ module.exports = {
         "no-implied-eval": "error",
         "no-invalid-this": "error",
         'no-iterator': "error",
+        "no-lone-blocks": "off",// reevaluate soon
     }
 };
