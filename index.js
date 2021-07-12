@@ -292,5 +292,6 @@ module.exports = {
             "minProperties": 2,
             "consistent": true,
         }],
+        "object-curly-spacing": ["error", "always"],
     }
 };
