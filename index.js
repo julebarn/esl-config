@@ -293,5 +293,8 @@ module.exports = {
             "consistent": true,
         }],
         "object-curly-spacing": ["error", "always"],
+        "object-property-newline": ["error", {
+            "allowAllPropertiesOnSameLine": true
+        }],
     }
 };
