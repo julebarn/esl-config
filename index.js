@@ -103,5 +103,6 @@ module.exports = {
         "no-implicit-coercion": "off",
         "no-implicit-globals": "off",// reevaluate soon
         "no-implied-eval": "error",
+        "no-invalid-this": "error",
     }
 };
