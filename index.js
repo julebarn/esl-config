@@ -285,7 +285,6 @@ module.exports = {
         "no-restricted-syntax": "off",
         "no-tabs": "off",
         "no-ternary": "off",
-        "no-ternary": "warn",
         "no-underscore-dangle": "off",
         "no-unneeded-ternary": ["error", {
             "defaultAssignment": true,
