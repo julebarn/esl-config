@@ -318,5 +318,6 @@ module.exports = {
         "sort-keys": "off",
         "sort-vars": "off",
         "space-before-blocks": ["error", "never"],
+        "space-before-function-paren": ["error", "never"],
     }
 };
