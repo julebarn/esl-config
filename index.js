@@ -225,7 +225,7 @@ module.exports = {
         "linebreak-style": ["error", "windows"],
         "lines-around-comment": ["error", {
             "beforeBlockComment": true,
-            "afterBlockComment": true,
+            "afterBlockComment": false,
             "beforeLineComment": true,
             "afterLineComment": false,
             "allowBlockStart": true,
