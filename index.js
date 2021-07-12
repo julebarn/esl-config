@@ -343,6 +343,6 @@ module.exports = {
         "no-class-assign": "error",
         "no-confusing-arrow": ["error", { "allowParens": true }],
         "no-const-assign": "error",
-        
+        "no-dupe-class-members": "error",
     }
 };
