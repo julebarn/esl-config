@@ -315,5 +315,6 @@ module.exports = {
             "after": true
         }],
         "semi-style": ["error", "last"],
+        "sort-keys": "off",
     }
 };
