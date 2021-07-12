@@ -107,5 +107,9 @@ module.exports = {
         'no-iterator': "error",
         "no-lone-blocks": "off",// reevaluate soon
         "no-loop-func": "error",
+        "no-magic-numbers": ["error", {
+            "ignoreArrayIndexes": true
+            "ignoreDefaultValues": true
+        }]
     }
 };
