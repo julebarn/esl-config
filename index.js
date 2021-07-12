@@ -350,5 +350,6 @@ module.exports = {
         "no-restricted-imports": "off",
         "no-this-before-super": "error",
         "no-useless-computed-key": "error",
+        "no-useless-constructor": "error",
     }
 };
