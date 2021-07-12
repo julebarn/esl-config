@@ -113,6 +113,7 @@ module.exports = {
         }],
         "no-multi-spaces": ["error", {
             ignoreEOLComments: true
-        }]
+        }],
+        "no-multi-str": "error",
     }
 };
