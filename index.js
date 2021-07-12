@@ -344,5 +344,7 @@ module.exports = {
         "no-confusing-arrow": ["error", { "allowParens": true }],
         "no-const-assign": "error",
         "no-dupe-class-members": "error",
+        "no-duplicate-imports": "error",
+
     }
 };
