@@ -327,5 +327,6 @@ module.exports = {
         }],
         "spaced-comment": "off",// reevaluate soon
         "switch-colon-spacing": ["error", { "after": true, "before": false }],
+        "template-tag-spacing": ["error", "never"],
     }
 };
