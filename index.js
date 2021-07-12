@@ -340,5 +340,6 @@ module.exports = {
         }],
         "constructor-super": "error",
         "generator-star-spacing": ["error", "after"],
+        "no-class-assign": "error",
     }
 };
