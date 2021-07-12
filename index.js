@@ -168,5 +168,6 @@ module.exports = {
         "no-shadow": "error",
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
+        "no-undef-init": "off",
     }
 };
