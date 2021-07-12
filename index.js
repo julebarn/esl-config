@@ -73,7 +73,7 @@ module.exports = {
         "curly": ["error", "multi-or-nest", "consistent"], // reevaluate soon
         "default-case": "error",
         "default-case-last": "error",
-        "efault-param-last": "error",
+        "default-param-last": "error",
         "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eqeqeq": ["error", "smart"],
