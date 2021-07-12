@@ -176,6 +176,7 @@ module.exports = {
         "no-use-before-define": "error",
 
         //Stylistic Issues
-        "array-bracket-newline": ["error", { "multiline": true }]
+        "array-bracket-newline": ["error", { "multiline": true }],
+        
     }
 };
