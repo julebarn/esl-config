@@ -104,5 +104,6 @@ module.exports = {
         "no-implicit-globals": "off",// reevaluate soon
         "no-implied-eval": "error",
         "no-invalid-this": "error",
+        'no-iterator': "error",
     }
 };
