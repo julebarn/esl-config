@@ -162,5 +162,6 @@ module.exports = {
 
         //Variables
         "init-declarations": ["error", "always"],// reevaluate soon
+        "no-delete-var": "error",
     }
 };
