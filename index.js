@@ -277,6 +277,7 @@ module.exports = {
         "no-negated-condition": "off",
         "no-nested-ternary": "error",
         "no-new-object": "error",
+        "no-plusplus": "off",
 
     }
 };
