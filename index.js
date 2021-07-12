@@ -238,5 +238,10 @@ module.exports = {
             "ignoreTemplateLiterals": true
             "ignoreRegExpLiterals": true
         }],
+        "max-lines": ["error", {
+            "max": 250,
+            "skipBlankLines": false,
+            "skipComments": false,
+        }],
     }
 };
