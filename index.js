@@ -303,5 +303,6 @@ module.exports = {
         "padded-blocks": "off",
         "padding-line-between-statements": "off",
         "prefer-exponentiation-operator": "error",
+        "prefer-object-spread": "off",// reevaluate soon
     }
 };
