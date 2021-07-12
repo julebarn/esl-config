@@ -138,5 +138,6 @@ module.exports = {
         "no-unused-expressions": "error",
         "no-unused-labels": "error",
         "no-useless-call": "error",
+        "no-useless-catch": "error",
     }
 };
