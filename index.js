@@ -62,7 +62,7 @@ module.exports = {
         //Best Practices
         "accessor-pairs": "error",
         "array-callback-return": ["error", {
-            "allowImplicit": true
+            "allowImplicit": true,
             "checkForEach": true,
         }],
         "block-scoped-var": "off", // reevaluate soon
@@ -272,7 +272,7 @@ module.exports = {
             "ignoreChainWithDepth": 2,
         }],
         "no-array-constructor": "error",
-        "no-bitwise": "error",
+        "no-bitwise": "off",
         "no-continue": "off",
         "no-inline-comments": "off",
         "no-lonely-if": "error",
@@ -329,7 +329,7 @@ module.exports = {
         "space-infix-ops": "error",
         "space-unary-ops": ["error", {
             "words": true,
-            "nonwords": true,
+            "nonwords": false,
         }],
         "spaced-comment": "off",// reevaluate soon
         "switch-colon-spacing": ["error", { "after": true, "before": false }],
