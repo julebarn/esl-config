@@ -120,5 +120,6 @@ module.exports = {
         "no-new-wrappers": "error",
         "no-nonoctal-decimal-escape": "error",
         "no-octal": "error", // not needed
+        "no-octal-escape": "error", // not needed
     }
 };
