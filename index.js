@@ -215,5 +215,19 @@ module.exports = {
         }],
         "line-comment-position": "off",
         "linebreak-style": ["error", "windows"],
+        "lines-around-comment": ["error", {
+            "beforeBlockComment": true,
+            "afterBlockComment": true,
+            "beforeLineComment": true,
+            "afterLineComment": false,
+            "allowBlockStart": true,
+            "allowBlockEnd": false,
+            "allowObjectStart": true,
+            "allowObjectEnd": false,
+            "allowArrayStart": false,
+            "allowArrayEnd": false,
+            "allowClassStart": true,
+            "allowClassEnd": false,
+        }],
     }
 };
