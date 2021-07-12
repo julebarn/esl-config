@@ -338,5 +338,6 @@ module.exports = {
             "before": false,// reevaluate soon
             "after": true
         }],
+        "constructor-super": "error",
     }
 };
