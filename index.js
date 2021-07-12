@@ -358,5 +358,9 @@ module.exports = {
             "allowNamedFunctions": true
             "allowUnboundThis": true
         }],
+        "prefer-const": ["warn", {// reevaluate soon
+            "destructuring": "any",
+            "ignoreReadBeforeAssign": false
+        }],
     }
 };
