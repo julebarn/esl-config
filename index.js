@@ -288,5 +288,9 @@ module.exports = {
         }],
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": "off",
+        "object-curly-newline": ["error", {
+            "minProperties": 2,
+            "consistent": true,
+        }],
     }
 };
