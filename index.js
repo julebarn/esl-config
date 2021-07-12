@@ -101,5 +101,6 @@ module.exports = {
         "no-floating-decimal": "off",// reevaluate soon
         "no-global-assign": "error",
         "no-implicit-coercion": "off",
+        "no-implicit-globals": "off",// reevaluate soon
     }
 };
