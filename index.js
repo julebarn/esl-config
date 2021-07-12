@@ -298,5 +298,6 @@ module.exports = {
         }],
         "one-var": ["error", "never"],
         "one-var-declaration-per-line": "off",// not needed
+        "operator-assignment": ["error", "always"],
     }
 };
