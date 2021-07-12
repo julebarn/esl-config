@@ -202,5 +202,6 @@ module.exports = {
         "id-match": "off",
         "implicit-arrow-linebreak": ["error", "beside"],
         "indent": ["error", 4],
+        "jsx-quotes": "off",
     }
 };
