@@ -265,5 +265,6 @@ module.exports = {
         }],
         "no-array-constructor": "error",
         "no-bitwise": "error",
+        "no-continue": "off",
     }
 };
