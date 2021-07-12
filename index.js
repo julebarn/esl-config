@@ -269,6 +269,6 @@ module.exports = {
         "no-inline-comments": "off",
         "no-lonely-if": "error",
         "no-mixed-operators": "error",
-        
+        "no-mixed-spaces-and-tabs": "error",
     }
 };
