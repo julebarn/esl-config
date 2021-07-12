@@ -190,5 +190,6 @@ module.exports = {
         "comma-style": ["error", "last"],
         "computed-property-spacing": ["error", "never"],
         "consistent-this": ["error", "self"],
+        "eol-last": ["error", "always"],
     }
 };
