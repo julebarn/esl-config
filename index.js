@@ -310,5 +310,9 @@ module.exports = {
             "allowTemplateLiterals": true
         }],
         "semi": ["error", "never"],
+        "semi-spacing": ["error", {
+            "before": false,
+            "after": true
+        }],
     }
 };
