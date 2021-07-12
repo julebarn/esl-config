@@ -243,5 +243,10 @@ module.exports = {
             "skipBlankLines": false,
             "skipComments": false,
         }],
+        "max-lines-per-function": ["error", {
+            "max": 45, // reevaluate soon
+            "skipBlankLines": true,
+            "skipComments": true,
+        }],
     }
 };
