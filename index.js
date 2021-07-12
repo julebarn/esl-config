@@ -351,5 +351,7 @@ module.exports = {
         "no-this-before-super": "error",
         "no-useless-computed-key": "error",
         "no-useless-constructor": "error",
+        "no-useless-rename": "error",
+
     }
 };
