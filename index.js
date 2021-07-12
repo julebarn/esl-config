@@ -297,6 +297,6 @@ module.exports = {
             "allowAllPropertiesOnSameLine": true
         }],
         "one-var": ["error", "never"],
-        
+        "one-var-declaration-per-line": "off",// not needed
     }
 };
