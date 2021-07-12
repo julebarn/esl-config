@@ -229,6 +229,7 @@ module.exports = {
             "allowClassStart": true,
             "allowClassEnd": false,
         }],
-       "lines-between-class-members": ["error", "always"]
+        "lines-between-class-members": ["error", "always"],
+        "max-depth": ["error", 4],
     }
 };
