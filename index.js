@@ -180,6 +180,7 @@ module.exports = {
         "array-bracket-spacing": ["error", "never"],
         "array-element-newline": "off",
         "block-spacing": "error",
-        "brace-style": ["error", "1tbs", { "allowSingleLine": true }]
+        "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+        "camelcase": "error",
     }
 };
