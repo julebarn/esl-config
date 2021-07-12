@@ -102,5 +102,6 @@ module.exports = {
         "no-global-assign": "error",
         "no-implicit-coercion": "off",
         "no-implicit-globals": "off",// reevaluate soon
+        "no-implied-eval": "error",
     }
 };
