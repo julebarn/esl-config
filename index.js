@@ -169,7 +169,7 @@ module.exports = {
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "off",
-        "no-undefined": "error",
+        "no-undefined": "off",
         "no-unused-vars": ["error", {
             "args": "after-used",
         }],
