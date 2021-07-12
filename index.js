@@ -144,5 +144,6 @@ module.exports = {
         "no-useless-return": "error",
         "no-void": "error",
         "no-warning-comments": "off",
+        "no-with": "error",
     }
 };
