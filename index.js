@@ -367,6 +367,7 @@ module.exports = {
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
+        "require-yield": "error",
 
     }
 };
