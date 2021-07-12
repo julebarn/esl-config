@@ -151,5 +151,7 @@ module.exports = {
         "radix": "error",
         "require-await": "off", // reevaluate soon
         "require-unicode-regexp": "off",// reevaluate soon
+        "vars-on-top": "off",
+        
     }
 };
