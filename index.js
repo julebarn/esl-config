@@ -353,5 +353,6 @@ module.exports = {
         "no-useless-constructor": "error",
         "no-useless-rename": "error",
         "no-var": "warn",// reevaluate soon
+        "object-shorthand": ["error", "methods"]
     }
 };
