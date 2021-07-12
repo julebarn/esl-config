@@ -302,5 +302,6 @@ module.exports = {
         "operator-linebreak": ["error", "after"], // reevaluate soon
         "padded-blocks": "off",
         "padding-line-between-statements": "off",
+        "prefer-exponentiation-operator": "error",
     }
 };
