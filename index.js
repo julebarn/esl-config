@@ -119,5 +119,6 @@ module.exports = {
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-nonoctal-decimal-escape": "error",
+        "no-octal": "error", // not needed
     }
 };
