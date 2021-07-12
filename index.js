@@ -319,5 +319,6 @@ module.exports = {
         "sort-vars": "off",
         "space-before-blocks": ["error", "never"],
         "space-before-function-paren": ["error", "never"],
+        "space-in-parens": ["error", "never"],
     }
 };
