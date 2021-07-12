@@ -257,5 +257,6 @@ module.exports = {
             "max": 2
         }],
         "multiline-comment-style": ["error", "bare-block"],
+        "multiline-ternary": ["error", "always-multiline"],
     }
 };
