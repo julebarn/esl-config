@@ -214,5 +214,6 @@ module.exports = {
             "after": true
         }],
         "line-comment-position": "off",
+        "linebreak-style": ["error", "windows"],
     }
 };
