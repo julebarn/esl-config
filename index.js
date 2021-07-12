@@ -193,5 +193,6 @@ module.exports = {
         "eol-last": ["error", "always"],
         "func-call-spacing": ["error", "never"],
         "func-name-matching": "off",
+        "func-names": ["error", "as-needed"],
     }
 };
