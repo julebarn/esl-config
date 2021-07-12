@@ -198,7 +198,7 @@ module.exports = {
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"],
         "id-denylist": "off",// reevaluate soon
-        "id-length": ["error", { "min": 2, "max": 10 }],
+        "id-length": ["error", { "min": 2, "max": 50 }],
         "id-match": "off",
         "implicit-arrow-linebreak": ["error", "beside"],
         "indent": ["error", 4],
