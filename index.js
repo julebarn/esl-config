@@ -197,5 +197,6 @@ module.exports = {
         "func-style": ["error", "declaration"],
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"]
+        "id-denylist": "off",// reevaluate soon
     }
 };
