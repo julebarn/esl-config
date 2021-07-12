@@ -158,7 +158,7 @@ module.exports = {
         "yoda": "error",
 
         //Strict Mode
-        "strict": ["error", "never"]
+        "strict": ["error", "never"],
 
         //Variables
         "init-declarations": ["error", "always"],// reevaluate soon
