@@ -267,5 +267,6 @@ module.exports = {
         "no-bitwise": "error",
         "no-continue": "off",
         "no-inline-comments": "off",
+        "no-lonely-if": "error",
     }
 };
