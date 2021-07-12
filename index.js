@@ -196,7 +196,7 @@ module.exports = {
         "func-names": ["error", "as-needed"],
         "func-style": ["error", "declaration"],
         "function-call-argument-newline": ["error", "consistent"],
-        "function-paren-newline": ["error", "consistent"]
+        "function-paren-newline": ["error", "consistent"],
         "id-denylist": "off",// reevaluate soon
         "id-length": ["error", { "min": 2, "max": 10 }],
         "id-match": "off",
