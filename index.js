@@ -170,5 +170,8 @@ module.exports = {
         "no-undef": "error",
         "no-undef-init": "off",
         "no-undefined": "error",
+        "no-unused-vars": ["error", {
+            "args": "after-used"
+        }],
     }
 };
