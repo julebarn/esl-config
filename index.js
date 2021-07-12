@@ -179,5 +179,6 @@ module.exports = {
         "array-bracket-newline": ["error", { "multiline": true }],
         "array-bracket-spacing": ["error", "never"],
         "array-element-newline": "off",
+        "block-spacing": "error",
     }
 };
