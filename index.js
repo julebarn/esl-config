@@ -126,6 +126,7 @@ module.exports = {
         }]
         "no-proto": "error",
         "no-redeclare": "error",
-        "no-restricted-properties":"off",
+        "no-restricted-properties": "off",
+        "no-return-assign": ["error", "always"]
     }
 };
