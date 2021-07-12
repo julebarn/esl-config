@@ -286,5 +286,6 @@ module.exports = {
         "no-unneeded-ternary": ["error", {
             "defaultAssignment": true
         }],
+        "no-whitespace-before-property": "error",
     }
 };
