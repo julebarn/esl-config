@@ -296,5 +296,7 @@ module.exports = {
         "object-property-newline": ["error", {
             "allowAllPropertiesOnSameLine": true
         }],
+        "one-var": ["error", "never"],
+        
     }
 };
