@@ -132,5 +132,7 @@ module.exports = {
         "no-script-url": "error",
         "no-self-assign": "error",
         "no-self-compare": "error",
+        "no-sequences": "error",
+        
     }
 };
