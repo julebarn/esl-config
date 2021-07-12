@@ -314,5 +314,6 @@ module.exports = {
             "before": false,
             "after": true
         }],
+        "semi-style": ["error", "last"],
     }
 };
