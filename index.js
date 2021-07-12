@@ -304,5 +304,6 @@ module.exports = {
         "padding-line-between-statements": "off",
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "off",// reevaluate soon
+        "quote-props": ["error", "consistent-as-needed"],
     }
 };
