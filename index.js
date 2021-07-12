@@ -279,6 +279,6 @@ module.exports = {
         "no-new-object": "error",
         "no-plusplus": "off",
         "no-restricted-syntax": "off",
-
+        "no-tabs": "off",
     }
 };
