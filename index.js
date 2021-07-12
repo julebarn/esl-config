@@ -148,5 +148,6 @@ module.exports = {
         "prefer-named-capture-group": "error",
         "prefer-promise-reject-errors": "off",// reevaluate soon
         "prefer-regex-literals": "error",
+        "radix": "error",
     }
 };
