@@ -305,5 +305,9 @@ module.exports = {
         "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "off",// reevaluate soon
         "quote-props": ["error", "consistent-as-needed"],
+        "quotes": ["error", "double", {
+            "avoidEscape": true
+            "allowTemplateLiterals": true
+        }],
     }
 };
