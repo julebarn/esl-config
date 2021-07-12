@@ -135,6 +135,6 @@ module.exports = {
         "no-sequences": "error",
         "no-throw-literal": "error",
         "no-unmodified-loop-condition": "error",
-
+        "no-unused-expressions": "error",
     }
 };
