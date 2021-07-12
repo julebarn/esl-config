@@ -174,5 +174,8 @@ module.exports = {
             "args": "after-used"
         }],
         "no-use-before-define": "error",
+
+        //Stylistic Issues
+        "array-bracket-newline": ["error", { "multiline": true }]
     }
 };
