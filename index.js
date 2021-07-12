@@ -208,6 +208,10 @@ module.exports = {
             "afterColon": true,
             "mode": "strict",
             "align": "value"
-        }]
+        }],
+        "keyword-spacing": ["error", {
+            "before": true
+            "after": true
+        }],
     }
 };
