@@ -316,5 +316,6 @@ module.exports = {
         }],
         "semi-style": ["error", "last"],
         "sort-keys": "off",
+        "sort-vars": "off",
     }
 };
