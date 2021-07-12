@@ -253,5 +253,8 @@ module.exports = {
         }],
         "max-params": "off",
         "max-statements": ["error", 10],// reevaluate soon
+        "max-statements-per-line": ["error", {
+            "max": 2
+        }],
     }
 };
