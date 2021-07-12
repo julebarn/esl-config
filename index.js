@@ -164,6 +164,7 @@ module.exports = {
         "init-declarations": ["error", "always"],// reevaluate soon
         "no-delete-var": "error",
         "no-label-var": "error",
-        "no-restricted-globals": "off"
+        "no-restricted-globals": "off",
+        "no-shadow": "error",
     }
 };
