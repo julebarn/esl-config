@@ -256,5 +256,6 @@ module.exports = {
         "max-statements-per-line": ["error", {
             "max": 2
         }],
+        "multiline-comment-style": ["error", "bare-block"],
     }
 };
