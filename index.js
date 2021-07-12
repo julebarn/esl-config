@@ -150,5 +150,6 @@ module.exports = {
         "prefer-regex-literals": "error",
         "radix": "error",
         "require-await": "off", // reevaluate soon
+        "require-unicode-regexp": "off",// reevaluate soon
     }
 };
