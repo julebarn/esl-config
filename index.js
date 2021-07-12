@@ -362,5 +362,6 @@ module.exports = {
             "destructuring": "any",
             "ignoreReadBeforeAssign": false
         }],
+        "prefer-destructuring": "off",
     }
 };
