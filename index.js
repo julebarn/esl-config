@@ -149,5 +149,6 @@ module.exports = {
         "prefer-promise-reject-errors": "off",// reevaluate soon
         "prefer-regex-literals": "error",
         "radix": "error",
+        "require-await": "off", // reevaluate soon
     }
 };
