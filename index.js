@@ -200,5 +200,6 @@ module.exports = {
         "id-denylist": "off",// reevaluate soon
         "id-length": ["error", { "min": 2, "max": 10 }],
         "id-match": "off",
+        "implicit-arrow-linebreak": ["error", "beside"],
     }
 };
