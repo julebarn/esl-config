@@ -186,5 +186,6 @@ module.exports = {
             "ignoreInlineComments": true
         }],
         "comma-dangle": ["error", "always-multiline"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
     }
 };
