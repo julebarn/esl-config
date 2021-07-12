@@ -280,5 +280,7 @@ module.exports = {
         "no-plusplus": "off",
         "no-restricted-syntax": "off",
         "no-tabs": "off",
+        "no-ternary": "off",
+        
     }
 };
