@@ -123,7 +123,7 @@ module.exports = {
         "no-octal-escape": "error", // not needed
         "no-param-reassign": ["error", {
             "props": true,
-        }]
+        }],
         "no-proto": "error",
         "no-redeclare": "error",
         "no-restricted-properties": "off",
