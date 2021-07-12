@@ -369,6 +369,7 @@ module.exports = {
         "prefer-template": "error",
         "require-yield": "error",
         "rest-spread-spacing": ["error", "never"],
+        "sort-imports": "off",// reevaluate soon
 
     }
 };
