@@ -363,5 +363,7 @@ module.exports = {
             "ignoreReadBeforeAssign": false
         }],
         "prefer-destructuring": "off",
+        "prefer-numeric-literals": "error",
+
     }
 };
