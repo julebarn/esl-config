@@ -281,6 +281,6 @@ module.exports = {
         "no-restricted-syntax": "off",
         "no-tabs": "off",
         "no-ternary": "off",
-        
+        "no-ternary": "warn",
     }
 };
