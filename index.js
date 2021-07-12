@@ -191,5 +191,6 @@ module.exports = {
         "computed-property-spacing": ["error", "never"],
         "consistent-this": ["error", "self"],
         "eol-last": ["error", "always"],
+        "func-call-spacing": ["error", "never"],
     }
 };
