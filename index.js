@@ -177,6 +177,6 @@ module.exports = {
 
         //Stylistic Issues
         "array-bracket-newline": ["error", { "multiline": true }],
-        
+        "array-bracket-spacing": ["error", "never"],
     }
 };
