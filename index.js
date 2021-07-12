@@ -260,5 +260,8 @@ module.exports = {
         "multiline-ternary": ["error", "always-multiline"],
         "new-cap": "off",
         "new-parens": ["error", "always"],
+        "newline-per-chained-call": ["error", {
+            "ignoreChainWithDepth": 2
+        }],
     }
 };
