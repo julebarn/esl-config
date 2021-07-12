@@ -368,6 +368,7 @@ module.exports = {
         "prefer-spread": "error",
         "prefer-template": "error",
         "require-yield": "error",
+        "rest-spread-spacing": ["error", "never"],
 
     }
 };
