@@ -231,5 +231,12 @@ module.exports = {
         }],
         "lines-between-class-members": ["error", "always"],
         "max-depth": ["error", 4],
+        "max-len": ["error", {
+            "code": 100 // reevaluate soon
+            "ignoreUrls": true
+            "ignoreStrings": true
+            "ignoreTemplateLiterals": true
+            "ignoreRegExpLiterals": true
+        }],
     }
 };
