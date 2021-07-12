@@ -134,7 +134,7 @@ module.exports = {
         "no-self-compare": "error",
         "no-sequences": "error",
         "no-throw-literal": "error",
-        
+        "no-unmodified-loop-condition": "error",
 
     }
 };
