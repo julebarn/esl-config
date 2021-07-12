@@ -352,6 +352,6 @@ module.exports = {
         "no-useless-computed-key": "error",
         "no-useless-constructor": "error",
         "no-useless-rename": "error",
-
+        "no-var": "warn",// reevaluate soon
     }
 };
