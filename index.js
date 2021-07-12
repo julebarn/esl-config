@@ -152,6 +152,8 @@ module.exports = {
         "require-await": "off", // reevaluate soon
         "require-unicode-regexp": "off",// reevaluate soon
         "vars-on-top": "off",
-        
+        "wrap-iife": ["error", "outside", {
+            functionPrototypeMethods: true
+        }],
     }
 };
