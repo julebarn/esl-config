@@ -248,5 +248,8 @@ module.exports = {
             "skipBlankLines": true,
             "skipComments": true,
         }],
+        "max-nested-callbacks": ["error", {
+            "max": 3
+        }],
     }
 };
