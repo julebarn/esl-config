@@ -121,5 +121,8 @@ module.exports = {
         "no-nonoctal-decimal-escape": "error",
         "no-octal": "error", // not needed
         "no-octal-escape": "error", // not needed
+        "no-param-reassign": ["error", {
+            "props": true
+        }]
     }
 };
