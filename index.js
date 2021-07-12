@@ -371,6 +371,6 @@ module.exports = {
         "rest-spread-spacing": ["error", "never"],
         "sort-imports": "off",// reevaluate soon
         "symbol-description": "warn",// reevaluate soon
-
+        "template-curly-spacing": ["error", "never"],
     }
 };
