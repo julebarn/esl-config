@@ -159,5 +159,8 @@ module.exports = {
 
         //Strict Mode
         "strict": ["error", "never"]
+
+        //Variables
+        "init-declarations": ["error", "always"],// reevaluate soon
     }
 };
