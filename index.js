@@ -301,5 +301,6 @@ module.exports = {
         "operator-assignment": ["error", "always"],
         "operator-linebreak": ["error", "after"], // reevaluate soon
         "padded-blocks": "off",
+        "padding-line-between-statements": "off",
     }
 };
