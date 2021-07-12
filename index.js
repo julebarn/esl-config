@@ -333,6 +333,10 @@ module.exports = {
 
         //ECMAScript 6
         "arrow-body-style": ["error", "as-needed"],
-        "arrow-parens": ["error", "as-needed"]
+        "arrow-parens": ["error", "as-needed"],
+        "arrow-spacing": ["error", {
+            "before": false,// reevaluate soon
+            "after": true
+        }],
     }
 };
