@@ -325,5 +325,6 @@ module.exports = {
             "words": true,
             "nonwords": true,
         }],
+        "spaced-comment": "off",// reevaluate soon
     }
 };
