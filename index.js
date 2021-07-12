@@ -124,5 +124,6 @@ module.exports = {
         "no-param-reassign": ["error", {
             "props": true
         }]
+        "no-proto": "error"
     }
 };
