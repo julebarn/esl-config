@@ -201,5 +201,6 @@ module.exports = {
         "id-length": ["error", { "min": 2, "max": 10 }],
         "id-match": "off",
         "implicit-arrow-linebreak": ["error", "beside"],
+        "indent": ["error", 4],
     }
 };
