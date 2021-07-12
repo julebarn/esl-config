@@ -106,5 +106,6 @@ module.exports = {
         "no-invalid-this": "error",
         'no-iterator': "error",
         "no-lone-blocks": "off",// reevaluate soon
+        "no-loop-func": "error",
     }
 };
