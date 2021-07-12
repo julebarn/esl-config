@@ -372,5 +372,6 @@ module.exports = {
         "sort-imports": "off",// reevaluate soon
         "symbol-description": "warn",// reevaluate soon
         "template-curly-spacing": ["error", "never"],
+        "yield-star-spacing": ["error", "after"],
     }
 };
