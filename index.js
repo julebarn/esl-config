@@ -110,6 +110,7 @@ module.exports = {
         "no-magic-numbers": ["error", {
             "ignoreArrayIndexes": true,
             "ignoreDefaultValues": true,
+            "ignore": [0,1,2],
         }],
         "no-multi-spaces": ["error", {
             ignoreEOLComments: true,
