@@ -330,5 +330,8 @@ module.exports = {
         "template-tag-spacing": ["error", "never"],
         "unicode-bom": ["error", "never"],
         "wrap-regex": "error",
+
+        //ECMAScript 6
+        "arrow-body-style": ["error", "as-needed"],
     }
 };
