@@ -275,6 +275,8 @@ module.exports = {
             "max": 2
         }],
         "no-negated-condition": "off",
+        "no-nested-ternary": "error",
         
+
     }
 };
