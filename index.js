@@ -258,5 +258,6 @@ module.exports = {
         }],
         "multiline-comment-style": ["error", "bare-block"],
         "multiline-ternary": ["error", "always-multiline"],
+        "new-cap": "off",
     }
 };
