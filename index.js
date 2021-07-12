@@ -167,5 +167,6 @@ module.exports = {
         "no-restricted-globals": "off",
         "no-shadow": "error",
         "no-shadow-restricted-names": "error",
+        "no-undef": "error",
     }
 };
