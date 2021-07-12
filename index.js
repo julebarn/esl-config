@@ -278,6 +278,7 @@ module.exports = {
         "no-nested-ternary": "error",
         "no-new-object": "error",
         "no-plusplus": "off",
+        "no-restricted-syntax": "off",
 
     }
 };
