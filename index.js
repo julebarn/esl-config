@@ -300,6 +300,6 @@ module.exports = {
         "one-var-declaration-per-line": "off",// not needed
         "operator-assignment": ["error", "always"],
         "operator-linebreak": ["error", "after"], // reevaluate soon
-        
+        "padded-blocks": "off",
     }
 };
