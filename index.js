@@ -229,5 +229,6 @@ module.exports = {
             "allowClassStart": true,
             "allowClassEnd": false,
         }],
+       "lines-between-class-members": ["error", "always"]
     }
 };
