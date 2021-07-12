@@ -184,6 +184,7 @@ module.exports = {
         "camelcase": "error",
         "capitalized-comments": ["error", "always", {
             "ignoreInlineComments": true
-        }]
+        }],
+        "comma-dangle": ["error", "always-multiline"],
     }
 };
