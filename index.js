@@ -345,6 +345,7 @@ module.exports = {
         "no-const-assign": "error",
         "no-dupe-class-members": "error",
         "no-duplicate-imports": "error",
+        "no-new-symbol": "error",
 
     }
 };
