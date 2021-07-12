@@ -354,5 +354,9 @@ module.exports = {
         "no-useless-rename": "error",
         "no-var": "warn",// reevaluate soon
         "object-shorthand": ["error", "methods"]
+        "prefer-arrow-callback": ["error", {
+            "allowNamedFunctions": true
+            "allowUnboundThis": true
+        }],
     }
 };
