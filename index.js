@@ -283,5 +283,8 @@ module.exports = {
         "no-ternary": "off",
         "no-ternary": "warn",
         "no-underscore-dangle": "off",
+        "no-unneeded-ternary": ["error", {
+            "defaultAssignment": true
+        }],
     }
 };
