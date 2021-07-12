@@ -116,5 +116,6 @@ module.exports = {
         }],
         "no-multi-str": "error",
         "no-new": "error",
+        "no-new-func": "error",
     }
 };
