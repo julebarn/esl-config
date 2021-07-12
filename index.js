@@ -287,5 +287,6 @@ module.exports = {
             "defaultAssignment": true
         }],
         "no-whitespace-before-property": "error",
+        "nonblock-statement-body-position": "off",
     }
 };
