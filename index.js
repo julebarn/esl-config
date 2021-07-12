@@ -192,5 +192,6 @@ module.exports = {
         "consistent-this": ["error", "self"],
         "eol-last": ["error", "always"],
         "func-call-spacing": ["error", "never"],
+        "func-name-matching": "off",
     }
 };
