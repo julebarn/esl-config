@@ -155,5 +155,6 @@ module.exports = {
         "wrap-iife": ["error", "outside", {
             functionPrototypeMethods: true
         }],
+        "yoda": "error",
     }
 };
