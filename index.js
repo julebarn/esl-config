@@ -321,5 +321,9 @@ module.exports = {
         "space-before-function-paren": ["error", "never"],
         "space-in-parens": ["error", "never"],
         "space-infix-ops": "error",
+        "space-unary-ops": ["error", {
+            "words": true,
+            "nonwords": true,
+        }],
     }
 };
