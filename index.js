@@ -189,5 +189,6 @@ module.exports = {
         "comma-spacing": ["error", { "before": false, "after": true }],
         "comma-style": ["error", "last"],
         "computed-property-spacing": ["error", "never"],
+        "consistent-this": ["error", "self"],
     }
 };
