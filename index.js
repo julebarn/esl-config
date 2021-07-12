@@ -118,5 +118,6 @@ module.exports = {
         "no-new": "error",
         "no-new-func": "error",
         "no-new-wrappers": "error",
+        "no-nonoctal-decimal-escape": "error",
     }
 };
