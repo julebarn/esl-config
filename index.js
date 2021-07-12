@@ -264,5 +264,6 @@ module.exports = {
             "ignoreChainWithDepth": 2
         }],
         "no-array-constructor": "error",
+        "no-bitwise": "error",
     }
 };
