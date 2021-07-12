@@ -260,7 +260,7 @@ module.exports = {
             "max": 3,
         }],
         "max-params": "off",
-        "max-statements": ["error", 10],// reevaluate soon
+        "max-statements": ["error", 15],// reevaluate soon
         "max-statements-per-line": ["error", {
             "max": 2,
         }],
