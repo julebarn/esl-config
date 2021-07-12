@@ -115,5 +115,6 @@ module.exports = {
             ignoreEOLComments: true
         }],
         "no-multi-str": "error",
+        "no-new": "error",
     }
 };
