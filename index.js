@@ -145,5 +145,6 @@ module.exports = {
         "no-void": "error",
         "no-warning-comments": "off",
         "no-with": "error",
+        "prefer-named-capture-group": "error",
     }
 };
