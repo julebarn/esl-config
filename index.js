@@ -62,8 +62,8 @@ module.exports = {
         //Best Practices
         "accessor-pairs": "error",
         "array-callback-return": ["error", {
-            "allowImplicit": true,
-            "checkForEach": true,
+            "allowImplicit": false,
+            "checkForEach": false,
         }],
         "block-scoped-var": "off", // reevaluate soon
         "class-methods-use-this": "error",
@@ -111,7 +111,7 @@ module.exports = {
         "no-magic-numbers": ["error", {
             "ignoreArrayIndexes": true,
             "ignoreDefaultValues": true,
-            "ignore": [0,1,2],
+            "ignore": [-1,0,1,2],
         }],
         "no-multi-spaces": ["error", {
             ignoreEOLComments: true,
