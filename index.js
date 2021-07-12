@@ -196,7 +196,9 @@ module.exports = {
         "func-call-spacing": ["error", "never"],
         "func-name-matching": "off",
         "func-names": ["error", "as-needed"],
-        "func-style": ["error", "declaration"],
+        "func-style": ["error", "declaration", {
+            "allowArrowFunctions": true
+        }],
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"],
         "id-denylist": "off",// reevaluate soon
