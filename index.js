@@ -156,5 +156,8 @@ module.exports = {
             functionPrototypeMethods: true
         }],
         "yoda": "error",
+
+        //Strict Mode
+        "strict": ["error", "never"]
     }
 };
