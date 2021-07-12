@@ -342,6 +342,7 @@ module.exports = {
         "generator-star-spacing": ["error", "after"],
         "no-class-assign": "error",
         "no-confusing-arrow": ["error", { "allowParens": true }],
-
+        "no-const-assign": "error",
+        
     }
 };
