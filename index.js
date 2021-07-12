@@ -263,5 +263,6 @@ module.exports = {
         "newline-per-chained-call": ["error", {
             "ignoreChainWithDepth": 2
         }],
+        "no-array-constructor": "error",
     }
 };
