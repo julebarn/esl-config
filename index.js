@@ -339,5 +339,6 @@ module.exports = {
             "after": true
         }],
         "constructor-super": "error",
+        "generator-star-spacing": ["error", "after"],
     }
 };
