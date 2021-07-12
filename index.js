@@ -203,5 +203,11 @@ module.exports = {
         "implicit-arrow-linebreak": ["error", "beside"],
         "indent": ["error", 4],
         "jsx-quotes": "off",
+        "key-spacing": ["error", {
+            "beforeColon": false,
+            "afterColon": true,
+            "mode": "strict",
+            "align": "value"
+        }]
     }
 };
