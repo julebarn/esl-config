@@ -337,7 +337,7 @@ module.exports = {
         "arrow-body-style": ["error", "as-needed"],
         "arrow-parens": ["error", "as-needed"],
         "arrow-spacing": ["error", {
-            "before": false,// reevaluate soon
+            "before": true,
             "after": true,
         }],
         "constructor-super": "error",
