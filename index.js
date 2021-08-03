@@ -222,7 +222,7 @@ module.exports = {
             "after": true,
         }],
         "line-comment-position": "off",
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": ["off", "windows"],
         "lines-around-comment": ["error", {
             "beforeBlockComment": true,
             "afterBlockComment": false,
