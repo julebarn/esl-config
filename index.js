@@ -112,6 +112,7 @@ module.exports = {
             "ignoreArrayIndexes": true,
             "ignoreDefaultValues": true,
             "ignore": [-1,0,1,2],
+            "detectObjects": false,
         }],
         "no-multi-spaces": ["error", {
             ignoreEOLComments: true,
