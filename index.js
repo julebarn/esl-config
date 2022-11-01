@@ -1,9 +1,8 @@
 module.exports = {
     env: {
-        es2021: true
+        es2022: true        
     },
     parserOptions: {
-        ecmaVersion: "2021",
         sourceType: "module"
     },
     rules: {
@@ -21,11 +20,11 @@ module.exports = {
         "no-dupe-else-if": "error",
         "no-dupe-keys": "error",
         "no-duplicate-case": "error",
-        "no-empty": "off", // reevaluate soon
+        "no-empty": "warn",
         "no-empty-character-class": "error",
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "error",
-        "no-extra-parens": ["error", "functions"], // reevaluate soon
+        "no-extra-parens": ["error", "functions"],
         "no-extra-semi": "off",//not needed
         "no-func-assign": "error",
         "no-import-assign": "error",
@@ -87,11 +86,11 @@ module.exports = {
         "no-constructor-return": "error",
         "no-div-regex": "error",
         "no-else-return": "error",
-        "no-empty-function": ["error", { // reevaluate soon
+        "no-empty-function": ["error", {
             "allow": ["arrowFunctions"],
         }],
         "no-empty-pattern": "error",
-        "no-eq-null": "error",// reevaluate soon
+        "no-eq-null": "error",
         "no-eval": "error",
         "no-extend-native": "error",
         "no-extra-bind": "error",
@@ -99,19 +98,19 @@ module.exports = {
         "no-fallthrough": ["error", {
             //"commentPattern": "" // reevaluate soon
         }],
-        "no-floating-decimal": "off",// reevaluate soon
+        "no-floating-decimal": "error",
         "no-global-assign": "error",
         "no-implicit-coercion": "off",
         "no-implicit-globals": "off",// reevaluate soon
         "no-implied-eval": "error",
         "no-invalid-this": "error",
         'no-iterator': "error",
-        "no-lone-blocks": "off",// reevaluate soon
+        "no-lone-blocks": "off",
         "no-loop-func": "error",
         "no-magic-numbers": ["error", {
             "ignoreArrayIndexes": true,
             "ignoreDefaultValues": true,
-            "ignore": [-1,0,1,2],
+            "ignore": [-1, 0, 1, 2],
             "detectObjects": false,
         }],
         "no-multi-spaces": ["error", {
@@ -164,7 +163,7 @@ module.exports = {
         "strict": ["error", "never"],
 
         //Variables
-        "init-declarations": ["error", "always"],// reevaluate soon
+        "init-declarations": ["error", "always"],
         "no-delete-var": "error",
         "no-label-var": "error",
         "no-restricted-globals": "off",
@@ -202,9 +201,9 @@ module.exports = {
         }],
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"],
-        "id-denylist": "off",// reevaluate soon
-        "id-length": ["off", {// reevaluate soon
-            "min": 2,
+        "id-denylist": "off",
+        "id-length": ["error", {// reevaluate soon
+            "min": 1,
             "max": 50,
             "properties": "never"
         }],
@@ -253,7 +252,7 @@ module.exports = {
             "skipComments": false,
         }],
         "max-lines-per-function": ["error", {
-            "max": 45, // reevaluate soon
+            "max": 50, // reevaluate soon
             "skipBlankLines": true,
             "skipComments": true,
         }],
@@ -310,7 +309,7 @@ module.exports = {
         "padded-blocks": "off",
         "padding-line-between-statements": "off",
         "prefer-exponentiation-operator": "error",
-        "prefer-object-spread": "off",// reevaluate soon
+        "prefer-object-spread": "off",
         "quote-props": ["error", "consistent-as-needed"],
         "quotes": ["error", "double", {
             "avoidEscape": true,
@@ -332,7 +331,15 @@ module.exports = {
             "words": true,
             "nonwords": false,
         }],
-        "spaced-comment": "off",// reevaluate soon
+        "spaced-comment": ["error", "always", {
+            "line": {
+                "markers": ["/"],
+            },
+            "block": {
+                "markers": ["*"],
+                "balanced": true
+            }
+        }],
         "switch-colon-spacing": ["error", { "after": true, "before": false }],
         "template-tag-spacing": ["error", "never"],
         "unicode-bom": ["error", "never"],
@@ -365,7 +372,7 @@ module.exports = {
             "allowNamedFunctions": true,
             "allowUnboundThis": true,
         }],
-        "prefer-const": ["warn", {// reevaluate soon
+        "prefer-const": ["warn", {
             "destructuring": "any",
             "ignoreReadBeforeAssign": false,
         }],
@@ -377,8 +384,8 @@ module.exports = {
         "require-yield": "error",
         "rest-spread-spacing": ["error", "never"],
         "sort-imports": "off",// reevaluate soon
-        "symbol-description": "warn",// reevaluate soon
+        "symbol-description": "warn",
         "template-curly-spacing": ["error", "never"],
         "yield-star-spacing": ["error", "after"],
     }
-};
+}
