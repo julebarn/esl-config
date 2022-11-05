@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/julebarn/esl-config#readme",
   "peerDependencies": {
-    "eslint": ">= 7"
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.42.0"
   }
 }
