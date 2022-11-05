@@ -102,4 +102,7 @@ module.exports = {
     "@typescript-eslint/type-annotation-spacing": "error", // reevaluate soon
     "@typescript-eslint/unbound-method": "off", // reevaluate soon
     "@typescript-eslint/unified-signatures": "warn",  // reevaluate soon
+
+    "no-duplicate-imports": "off",
+    "@typescript-eslint/no-duplicate-imports": "warn"
 }   
